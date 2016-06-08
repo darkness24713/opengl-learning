@@ -1,2 +1,2 @@
 # opengl-learning
-Learning Opengl to make a 3d game engine.
+Learning Opengl so I can make a game engine.
