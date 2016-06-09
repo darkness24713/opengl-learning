@@ -2,5 +2,12 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="HOME_LIB"/>
+	<classpathentry kind="lib" path="Library/jar/lwjgl.jar" sourcepath="Library/src.zip">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/opengl-learning/Library/src.zip!/"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="opengl-learning/Library/native"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
