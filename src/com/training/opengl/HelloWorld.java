@@ -29,6 +29,8 @@ public class HelloWorld {
             glfwTerminate();
             glfwSetErrorCallback(null).free();
         }
+        
+        System.out.println("Hello");
     }
  
     private void init() {
